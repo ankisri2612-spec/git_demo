@@ -1,6 +1,9 @@
 def my_function():
-    a=5
-    b=6
+    a = 5
+    b = 6
+    c = a + b
+    return c
 
-    return d
-my function()
+
+if __name__ == "__main__":
+    print(my_function())
